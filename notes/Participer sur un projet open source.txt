@@ -1,0 +1,37 @@
+
+
+Tutoriel git : Participer sur un projet open source
+resumer:
+1.creer un fork
+2.cloner ce fork sur votre ordi
+3. participer
+4. tester l'appli en local
+5. envoyer les modiff. au niveau du depot en faisant du pull request et expliquer au niveau du pull request pour koi vous avez fait ce changement
+
+les commandes:
+1.git clone https://github.com/ousmanendiaye1996/Sadikk-.git
+2. git remote -v
+3. git checkout -b sowb
+4. faire vos modification
+5. git commit -m ""
+6. git push origin sowb
+7. git va te donner directement un lien pour faire un pull request
+
+
+contributeur
+maintenir du projet ou le rewiew worker qui va recevoir la contribution et pouvoir l'analyse
+
+la bonne version a integrer
+
+github#bitbackup#gitlab
+
+
+
+github pull request
+gitlab merge request
+
+
+
+
+
+.rst

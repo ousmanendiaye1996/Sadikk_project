@@ -22,7 +22,11 @@ NB:INSTALLER GIT BASH/CLIC DROIT SUR LE DSSIER RACINE DU PROJET+GITBASH HERE
 6. git remote add origin https://github.com/ousmanendiaye1996/Sadikk_project.git
 7. git branch -M main
 8. git push -u origin main
-9. git push = mettre les changement sur le repsitory=répertoire de git hub
+
+une effectue des changements:
+1.git add .
+2.git commit -m "ajut du dssier notes"
+3. git push = mettre les changement sur le repsitory=répertoire de git hub
 
 
 touch .gitignore
@@ -58,3 +62,24 @@ git commit -m "Votre message de commit"
 
 Pousser les modifications sur GitHub : Envoyez vos modifications au dépôt distant avec :
 git push origin main 
+
+
+
+Cloner un projet GitHub (et utiliser Github Desktop)
+
+Tutoriel git : Participer sur un projet open source
+resumer:
+1.creer un frk
+2.cloner ce fork sur notre ordi
+3. participer
+4. tester l'appli en local
+5. envyer les modiff. au niveau du depot en faisant du pull request et expliquer au niveau du pull request pour koi vous avez fait ce changement
+
+
+
+stack trace= la liste des eurreur
+
+un fork = un copie conforme de notre repository
+pull request
+
+auth comletion
