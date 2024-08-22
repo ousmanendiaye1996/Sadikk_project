@@ -13,15 +13,21 @@ III:utilisser git bash pour mettre le projet sur github:
 
 NB:INSTALLER GIT BASH/CLIC DROIT SUR LE DSSIER RACINE DU PROJET+GITBASH HERE
 
-git init 
-git config --glbal user.name ousmane_ndiaye
-git config --glbal user.email ousmane.ndiaye.dev@gmail.com 
-git commit / la lettre i pour pouvir ecrire / echap / ecrire :wq pour enregistrer= ouvir l'editeur vim pour entrerun commit
+1. git init 
+2. git config --global user.name ousmane_ndiaye
+3. git config --global user.email ousmane.ndiaye.dev@gmail.com 
+3. git status
+4. git add .
+5. git commit / la lettre i pour pouvir ecrire / echap / ecrire :wq pour enregistrer= ouvir l'editeur vim pour entrerun commit
+6. git remote add origin https://github.com/ousmanendiaye1996/Sadikk_project.git
+7. git branch -M main
+8. git push -u origin main
+9. git push = mettre les changement sur le repsitory=répertoire de git hub
+
+
 touch .gitignore
-git status
-git add .
 git commit -m "ajout du ficher git ignore"
-git branc accueil
+ git branch accueil
 git checkout accueil
 git branc --list
 git checkout master
