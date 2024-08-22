@@ -1,0 +1,54 @@
+I:django:
+1. django-admin startproject sadikk_project
+2. cd sadikk_project
+3. python manage.py startapp sadikk_app
+4. python manage.py runserver
+
+
+II:github:
+1.Créer un compte GitHub.
+2.Créer un nouveau dépôt (repository).
+
+III:utilisser git bash pour mettre le projet sur github:
+
+NB:INSTALLER GIT BASH/CLIC DROIT SUR LE DSSIER RACINE DU PROJET+GITBASH HERE
+
+git init 
+git config --glbal user.name ousmane_ndiaye
+git config --glbal user.email ousmane.ndiaye.dev@gmail.com 
+git commit / la lettre i pour pouvir ecrire / echap / ecrire :wq pour enregistrer= ouvir l'editeur vim pour entrerun commit
+touch .gitignore
+git status
+git add .
+git commit -m "ajout du ficher git ignore"
+git branc accueil
+git checkout accueil
+git branc --list
+git checkout master
+git merge accueil
+touch readme.md =md=mark dark= ajouter la description de notre site
+git push = mettre les changement sur le repsitory=répertoire de git hub
+git pull = lorsque l'autre personne effectue des changements sur votre projet pour LE VALIDER , MAJ
+git clone = télécharger le projet une fois perdu
+
+
+
+
+
+git rm -r nom duf
+git checkout -- . = revenir en arriere apres une dlete
+
+
+
+
+
+Cloner le dépôt localement:git clone https://github.com/ousmanendiaye1996/Sadikk-.git  n'oubliez pas d'accepter l'autorisation sur votre compte en ligne
+
+
+
+Apporter des modifications et les valider : Faites vos modifications dans le projet local, puis ajoutez et validez vos modifications avec les commandes :
+git add .  
+git commit -m "Votre message de commit"
+
+Pousser les modifications sur GitHub : Envoyez vos modifications au dépôt distant avec :
+git push origin main 
