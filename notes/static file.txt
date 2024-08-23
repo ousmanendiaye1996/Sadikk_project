@@ -1,0 +1,45 @@
+static file=ficher static: c'est comme son nom l'indique, un ficher qui ne change pas
+
+contient les ficher qui n'ont pas modifiable par les codes python
+comme les images, les fichers css, les fichers javascripyt...
+
+1. verifier si le modul static file est bien installer et ajouter l'app qui se trouve le ficher static:
+dans setting.py INSTALLED_APPS =[ 'django.contrib.staticfiles', 'sadikk_app.apps.MyappConfig', ]
+
+2. creer le repertoire static au meme niveau que l'app sadikk_project
+clic droit/new/new directory(static)
+
+3. configurer le repertoire static au niveau de setting.py
+ on ajoute a la fin:
+#ajouter le chemain vers le repertoire static
+STATIC_URL = '/static'
+#joindre tous les fichers qui se trouve dans le repertoire static
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/'),]
+
+
+4. cree les sous repertoire ie css, images, js...
+ creer les fichers de ses sous repertoire comme style.css par exemple
+clic drit sur statric/new/directory
+
+5. inclure ou charger les fichers dans le contenu du ficher souhaite:
+{% load static %}
+#en suite mettre le lien ver la feille de style css:
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+
+exemple: dans templates/index.html
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+
+<h2 class="title">bienvenue !</h2>
+
+et dans static/css/style.css
+.title{
+color:white;
+background-color:#8975C3;
+border-radius: 7px;
+font-size:18px
+padding:18px;
+line-height:158%;
+text-align:center;
+}
+

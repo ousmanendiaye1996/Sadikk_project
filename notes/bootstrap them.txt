@@ -1,0 +1,7 @@
+Bootstrap est une collection d'outils utiles à la création du design (graphisme, animation et interactions avec la page dans le navigateur, etc.)
+
+1. cpier l'ensemble du contenu de votre template dans le ficher static et le ficher index dans template
+2. dans index:
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+

@@ -1,0 +1,22 @@
+1. sur le ficher views
+
+from django, templete import loader
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+def index(request)
+templete = loader.get_templete('index.html')
+ return HttpResponse(templete.render())
+
+
+2. creer votre page templetes/index.html
+
+3. ajouter:  'DIRS': [OS.path.join(BASE_DIR, 'templates')], 
+et importer import os
+dans le fiches settings.py
+
+
+templete=model=gabarit
+
+son principal but c'est de separer le contenu du designe

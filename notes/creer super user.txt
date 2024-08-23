@@ -1,0 +1,9 @@
+
+1. python manage.py migrate
+2. python manage.py createsuperuser + nom user + @electronique+pwd
+3. python manage.py runserver
+4. tapper l'url 127.0.0.1/admin
+
+Nom d’utilisateur: ousmane
+Adresse électronique: ousmane.ndiaye.dev@gmail.com
+Password:1234 

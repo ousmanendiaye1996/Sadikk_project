@@ -67,13 +67,7 @@ git push origin main
 
 Cloner un projet GitHub (et utiliser Github Desktop)
 
-Tutoriel git : Participer sur un projet open source
-resumer:
-1.creer un frk
-2.cloner ce fork sur notre ordi
-3. participer
-4. tester l'appli en local
-5. envyer les modiff. au niveau du depot en faisant du pull request et expliquer au niveau du pull request pour koi vous avez fait ce changement
+
 
 
 
